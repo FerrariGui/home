@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_hardware"
+            android:icon="@drawable/processador"
+            android:title="Hardware" />
+
+        <item
+            android:id="@+id/nav_perifericos"
+            android:icon="@drawable/teclado"
+            android:title="Perifericos" />
+
+        <item
+            android:id="@+id/nav_computadores"
+            android:icon="@drawable/computer"
+            android:title="Computadores" />
+
+        <item
+            android:id="@+id/nav_monitores"
+            android:icon="@drawable/monitor"
+            android:title="Monitores" />
+
+        <item
+            android:id="@+id/nav_eletronico"
+            android:icon="@drawable/elec"
+            android:title="Eletrônicos" />
+
+        <item
+            android:id="@+id/nav_notebooks"
+            android:icon="@drawable/laptop"
+            android:title="Notebooks" />
+
+    </group>
+</menu>
